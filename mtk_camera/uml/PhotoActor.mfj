@@ -1,0 +1,618 @@
+{
+	"_type": "UMLClass",
+	"_id": "AAAAAAFbIrtR73axBcA=",
+	"_parent": {
+		"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+	},
+	"name": "PhotoActor",
+	"ownedElements": [
+		{
+			"_type": "UMLGeneralization",
+			"_id": "AAAAAAFbIryZTXepGbw=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"source": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"target": {
+				"$ref": "AAAAAAFbIpjgrG9jndo="
+			},
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLInterfaceRealization",
+			"_id": "AAAAAAFbIr38VnmauNA=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"source": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"target": {
+				"$ref": "AAAAAAFbIr2kFnk4Iog="
+			},
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLInterfaceRealization",
+			"_id": "AAAAAAFbIr4RRXnA9xg=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"source": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"target": {
+				"$ref": "AAAAAAFbIr1XLXjgzy4="
+			},
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwGKqX7XaeQ=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGKqX7YctA=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGKqX7XaeQ="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGKqX7ZTlY=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGKqX7XaeQ="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv736Hs+Frs="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwGiUX8p+4A=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGiUX8q8A8=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGiUX8p+4A="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGiUX8rZM4=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGiUX8p+4A="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv89CHuDWDY="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwGySH+KK9E=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGySH+Lxsc=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGySH+KK9E="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwGySH+Mjp4=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwGySH+KK9E="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv+Td3wHixI="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwHBAH/6o/U=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwHBAH/7UzM=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwHBAH/6o/U="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwHBAH/82Qo=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwHBAH/6o/U="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv/BH3xMpe8="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwHZv4B50x0=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwHZv4B6KcY=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwHZv4B50x0="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwHZv4B7+OM=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwHZv4B50x0="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv/6gXyXkAs="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwMAC4Q0P84=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMAC4Q1giE=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMAC4Q0P84="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMAC4Q2h0s=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMAC4Q0P84="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIv89CHuDWDY="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "composite",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwMQl4TC4tE=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMQl4TD6mg=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMQl4TC4tE="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMQl4TE6KU=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMQl4TC4tE="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIwDlh33wI1g="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "composite",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwMjUIVfLWE=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMjUIVgHvo=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMjUIVfLWE="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMjUIVhH2E=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMjUIVfLWE="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIwCv532rHb0="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "composite",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwMxwIYL/54=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMxwIYM0LQ=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMxwIYL/54="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwMxwIYNR3k=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwMxwIYL/54="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIwB0T31dn6I="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "composite",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwNAgYbGnW4=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwNAgYbHbDM=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwNAgYbGnW4="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwNAgYbIUDg=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwNAgYbGnW4="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIwBT130YRss="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "composite",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		},
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAFbIwRRCZJ0rp8=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwRRCZJ1ejo=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwRRCZJ0rp8="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIrtR73axBcA="
+				},
+				"visibility": "public",
+				"navigable": false,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAFbIwRRCZJ2lqo=",
+				"_parent": {
+					"$ref": "AAAAAAFbIwRRCZJ0rp8="
+				},
+				"reference": {
+					"$ref": "AAAAAAFbIwDlh33wI1g="
+				},
+				"visibility": "public",
+				"navigable": true,
+				"aggregation": "none",
+				"isReadOnly": false,
+				"isOrdered": false,
+				"isUnique": false,
+				"isDerived": false,
+				"isID": false
+			},
+			"visibility": "public",
+			"isDerived": false
+		}
+	],
+	"visibility": "public",
+	"operations": [
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAFbIwSTUpTFqro=",
+			"_parent": {
+				"$ref": "AAAAAAFbIrtR73axBcA="
+			},
+			"name": "PhotoActor",
+			"visibility": "public",
+			"isStatic": false,
+			"isLeaf": false,
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAFbIwUKK5UmRJc=",
+					"_parent": {
+						"$ref": "AAAAAAFbIwSTUpTFqro="
+					},
+					"name": "CameraActivity context",
+					"visibility": "public",
+					"isStatic": false,
+					"isLeaf": false,
+					"type": "",
+					"isReadOnly": false,
+					"isOrdered": false,
+					"isUnique": false,
+					"direction": "in"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAFbIwUKK5Un920=",
+					"_parent": {
+						"$ref": "AAAAAAFbIwSTUpTFqro="
+					},
+					"name": "ModuleManager moduleManager",
+					"visibility": "public",
+					"isStatic": false,
+					"isLeaf": false,
+					"type": "",
+					"isReadOnly": false,
+					"isOrdered": false,
+					"isUnique": false,
+					"direction": "in"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAFbIwUKK5UoDmw=",
+					"_parent": {
+						"$ref": "AAAAAAFbIwSTUpTFqro="
+					},
+					"name": "int mode",
+					"visibility": "public",
+					"isStatic": false,
+					"isLeaf": false,
+					"type": "",
+					"isReadOnly": false,
+					"isOrdered": false,
+					"isUnique": false,
+					"direction": "in"
+				}
+			],
+			"concurrency": "sequential",
+			"isQuery": false,
+			"isAbstract": false
+		}
+	],
+	"isAbstract": false,
+	"isFinalSpecialization": false,
+	"isLeaf": false,
+	"isActive": false
+}
